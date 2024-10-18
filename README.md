@@ -7,10 +7,10 @@ The goal of this project is to develop a real-time data processing system to mon
 - Continuous retrieval of weather data from the OpenWeatherMap API for major Indian cities: Delhi, Mumbai, Chennai, Bangalore, Kolkata, Hyderabad.
 - Temperature conversion from Kelvin to Celsius or Fahrenheit based on user preference.
 - Daily weather summary generation with the following metrics:
-* Average temperature
-* Maximum temperature
-* Minimum temperature
-* Dominant weather condition
+  - Average temperature
+  - Maximum temperature
+  - Minimum temperature
+  - Dominant weather condition
 - User-configurable alert thresholds for specific weather conditions (e.g., high temperature).
 - Visualization of daily summaries, historical trends, and triggered alerts.
 
@@ -56,10 +56,10 @@ pip install -r requirements.txt
 ### 2. Data Processing & Rollups
 - For each weather update, the system converts temperature values from Kelvin to Celsius or Fahrenheit.
 - Daily summaries are generated, including:
-* Average temperature
-* Maximum temperature
-* Minimum temperature
-* Dominant weather condition (e.g., Rain, Snow, Clear)
+  - Average temperature
+  - Maximum temperature
+  - Minimum temperature
+  - Dominant weather condition (e.g., Rain, Snow, Clear)
 ### 3. Alerting System
 - The user can define custom thresholds for weather conditions (e.g., alert if temperature exceeds 35°C for two consecutive updates).
 - Alerts can be displayed in the console or sent via email (additional configuration required for email alerts).
